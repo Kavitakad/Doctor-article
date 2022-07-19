@@ -1,0 +1,270 @@
+body{
+    background-color: #E8E8E8;
+    /* margin: 0;
+    font-family: 'Poppins', sans-serif; */
+
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper{
+  
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.header{
+    margin-top: 25px;
+    min-height: 60px;
+
+  }
+
+.wid-25{
+    width: 25%;
+  }
+  .wid-23{
+    width: 23%;
+  }
+  .wid-50{
+    width: 50%;
+  }
+  .wid-75{
+    width: 75%;
+  }
+  .wid-33{
+    width: 33.3%;
+  }
+  .next-row{
+    clear: both;
+  }
+  .arrange-left{
+    float: left;
+  }
+  .arrange-right{
+    float: right;
+  }
+    h1 {
+      margin-left: -631px;
+  }
+  
+  
+.banner img{
+  margin-left: 10%;
+   margin-top: 63px;
+
+}
+span{
+  margin-right: 597px;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: -245px;
+}
+p{
+  margin-left: 597px;
+  
+  width: auto;
+  margin-right: 5%;
+  margin-top: 0px;
+text-align: justify;
+margin-left: 510px;
+}
+.category-item{
+  border: 2px solid #ccc;
+  padding: 30px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.category-item .product-count{
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.category-item .category-image img{
+width: 100%;
+}
+.category-item .category-type h5{
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.name-head h6{
+  margin: 0;
+ text-align: center;
+ font-size: 15px;
+ font-weight: 500;
+}
+.data{
+  text-align: center;
+  background-color:rgb(30, 229, 233);
+  height: 67px; 
+  font-weight: 800;
+  width: 90%;
+  padding-top: 19px;
+  margin-top: -40px;
+  font-size: 20px;
+
+}
+.stay-updated{
+  margin-bottom: 100px;
+  background-color: #fff;
+  margin-left: -5.5%;
+  margin-right: -5.5%;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 561px;
+}
+.stay-updated .updated-text{
+line-height: 2;
+color: #666;
+}
+.stay-updated .updated-inputs{
+display: flex;
+}
+.stay-updated .email-input{
+flex: 100%;
+border-radius: 0;
+height: 47px;
+border: none;
+padding-left: 20px;
+font-size: 16px;
+margin-left: 15%;
+background-color: #857f7e;
+
+}
+.stay-updated .email-btn{
+  border-radius: 73px;
+  border: 1px solid #00b6d6;
+  color: rgb(19, 18, 18);
+  background-color: #28eee7;
+  /* padding: 13px 30px; */
+  font-size: 50px;
+  margin-right: 15%;
+  margin-left: 128px;
+  /* margin-top: -39px; */
+  font-weight: 800;
+}
+.category-item1{
+  border: 2px solid #ccc;
+  padding: 30px;
+  /* margin-right: 25px; */
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.offer-banner{
+  background-color: #011355;
+  margin-bottom: 58PX;
+  position: relative;
+  margin-right: 25PX;
+  width: 1353px;
+  height: 300px;
+  margin-left: -60px;
+}
+.offer-banner img{
+  /* position: absolute; */
+  max-width: 85%;
+  max-height: 90%;
+  float:right;
+ 
+  margin-top: -179px;
+}
+.offer-banner .offer-text{
+  text-align: left;
+  padding: 40px;
+}
+
+
+
+.navbar-brand1{
+margin-left: 30px;
+/* margin-top: 83px; */
+font-weight: 800;
+
+}
+.footer{
+  background-color: #edf1ff;
+  margin-bottom: 100px;
+  margin-left: -5.5%;
+  padding-left: 5.5%;
+margin-right: -5.5%;
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+
+}
+.footer .contact-list{
+  padding: 0%;
+  list-style-type: none;
+  line-height: 2.5;
+}
+.footer .contact-list .icon{
+  color: #D19C97;
+  /* width: 5px; */
+}
+/* ----------------media queries-------------- */
+@media only screen and (max-width: 700px) {
+  .banner{
+    
+    margin-right: 297px;
+    margin-top: -72px;
+
+  }
+  .arrange-right {
+    margin-top: 28px;
+    margin-left: 20px;
+  }
+  .wrapper {
+    margin-left: 3%;
+    margin-right: -68%;
+    
+    display: inline-grid;
+}
+.category-item {
+  border: 2px solid #ccc;
+  padding: 5px;
+  margin-right: 127px;
+  margin-top: 17px;
+  margin-bottom: 50px;
+  
+}
+.product-count{
+  text-align: center;
+}
+.stay-updated {
+  margin-bottom: 100px;
+  background-color: #fff;
+  margin-left: -5.5%;
+  margin-right: 72.5%;
+  /* text-align: center; */
+  padding-top: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 561px;
+}
+.stay-updated h3{
+  margin-left: -250px;
+}
+.category-item1 img{
+  margin-left: -14px;
+}
+ .category-item3{
+  border: 2px solid #ccc;
+  padding: 5px;
+  margin-right: 20px;
+  margin-top: 17px;
+  margin-bottom: 50px;
+}
+.offer-banner {
+  background-color: #011355;
+  margin-bottom: 58PX;
+  position: relative;
+  margin-right: 25PX;
+  width: 1353px;
+  height: 300px;
+  margin-left: -60px;
+  margin-top: -612px;
+}
+}
